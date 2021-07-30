@@ -45,7 +45,6 @@ sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
 ```bash
 $ minikube start --kubernetes-version=v1.18.17 --driver=none --apiserver-ips 127.0.0.1 --apiserver-name localhost
 
-minikube start --kubernetes-version=v1.18.17 --driver=none --apiserver-ips 127.0.0.1 --apiserver-name localhost
 😄  minikube v1.22.0 on Ubuntu 20.04
 ❗  Kubernetes 1.18.17 has a known performance issue on cluster startup. It might take 2 to 3 minutes for a cluster to start.
 ❗  For more information, see: https://github.com/kubernetes/kubeadm/issues/2395
